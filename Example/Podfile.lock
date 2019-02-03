@@ -1,0 +1,16 @@
+PODS:
+  - EYCountDownButton (0.1.0)
+
+DEPENDENCIES:
+  - EYCountDownButton (from `../`)
+
+EXTERNAL SOURCES:
+  EYCountDownButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EYCountDownButton: b713b8fc9ca2cfed9ed6c84ca48c23fc36d48648
+
+PODFILE CHECKSUM: 39316f9280a8b1fd4ccaebd63023ef81a82aa133
+
+COCOAPODS: 1.6.0.beta.2

@@ -1,0 +1,6 @@
+framework module EYCountDownButton {
+  umbrella header "EYCountDownButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

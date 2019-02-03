@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AA8271FB3CDDDC0E0A32E9BF4DE3152 /* Pods-EYCountDownButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC7487C53502E5FC0707786C344AE9B /* Pods-EYCountDownButton_Example-dummy.m */; };
+		4992B6F0119230FBAC140901BA5C0C50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		49B401A50DF1853A2B54A1CA74F81D9A /* EYCountDownButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0131FDD3E7631E49A961DB2D92FACF1D /* EYCountDownButton-dummy.m */; };
+		6E0C735673C6F34F8CB58C983AB36993 /* Pods-EYCountDownButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF5F9490F4EAC3DDEEA249652C3CDFAA /* Pods-EYCountDownButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8575E579242AEA978180BF60DC967F42 /* Pods-EYCountDownButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8235B141B81069D18D07417AE1B560EA /* Pods-EYCountDownButton_Tests-dummy.m */; };
+		860267A209F96F7AFCDEA1DD24DE1C51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		DAF09D5BD3E7582D311DEE1B0351B387 /* Pods-EYCountDownButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FD7D1B10C12336FA33EA7651FBD9A26 /* Pods-EYCountDownButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5108E002207120C006DB278 /* NSTimer+EYBlockSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = F5108DFE2207120C006DB278 /* NSTimer+EYBlockSupport.h */; };
+		F5108E012207120C006DB278 /* NSTimer+EYBlockSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = F5108DFF2207120C006DB278 /* NSTimer+EYBlockSupport.m */; };
+		F5108E0422071258006DB278 /* EYCountDownButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F5108E0222071258006DB278 /* EYCountDownButton.h */; };
+		F5108E0522071258006DB278 /* EYCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F5108E0322071258006DB278 /* EYCountDownButton.m */; };
+		FE1230C3C8C8EB0F5A64CA174EFF4D0A /* EYCountDownButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B6B66E50B8CB08E9BCC381748797F3C /* EYCountDownButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF54250F1DC11D31248001833C68CEE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F7407F0E44E21964FF4B9579F06B7D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36B6552DD82C749DC7FE239F2152B817;
+			remoteInfo = "Pods-EYCountDownButton_Example";
+		};
+		D66954AA9F713BD67E8AD8DC1AA0237A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 904E45AE84EB0D723156FD31B4C0F1D3;
+			remoteInfo = EYCountDownButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0131FDD3E7631E49A961DB2D92FACF1D /* EYCountDownButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EYCountDownButton-dummy.m"; sourceTree = "<group>"; };
+		02181555AF6AAEAB7BAAEAA2A28EF5DE /* EYCountDownButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EYCountDownButton-prefix.pch"; sourceTree = "<group>"; };
+		125639B0F95BB0233F2ABA1658BA003B /* Pods-EYCountDownButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EYCountDownButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		179AFE6D43A0F46686866025E25F0C02 /* Pods-EYCountDownButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EYCountDownButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		218F07062C3B9349F0A77B2AF3B5601A /* Pods-EYCountDownButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EYCountDownButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		29C2D2F287B3CB002A141974C19029CA /* Pods-EYCountDownButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EYCountDownButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2AC7487C53502E5FC0707786C344AE9B /* Pods-EYCountDownButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EYCountDownButton_Example-dummy.m"; sourceTree = "<group>"; };
+		2FD7D1B10C12336FA33EA7651FBD9A26 /* Pods-EYCountDownButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EYCountDownButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		3097E51CD0C2CBFF42443F0CC4CDC4D8 /* EYCountDownButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EYCountDownButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F800D82643C324D8A48E142B498D477 /* Pods_EYCountDownButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EYCountDownButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C118A184D2084B04CD642355E41E67 /* Pods-EYCountDownButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EYCountDownButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F78B92886E223B261426C1AEDE83886 /* EYCountDownButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EYCountDownButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		576DA384A7736E0097865EAE4FC11015 /* EYCountDownButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EYCountDownButton-Info.plist"; sourceTree = "<group>"; };
+		625A00D8D93F38516058CD56D89108AB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6CD92876DCF467E606B6D1D3A8B37A7E /* EYCountDownButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EYCountDownButton.xcconfig; sourceTree = "<group>"; };
+		77CED81C7C627811AC45E811DB4B7DA5 /* EYCountDownButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EYCountDownButton.modulemap; sourceTree = "<group>"; };
+		7ED6D1BEA371AFE2F84824646D89E394 /* Pods-EYCountDownButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EYCountDownButton_Example-Info.plist"; sourceTree = "<group>"; };
+		7FB7FD8AC50D36D1AD013D9ABA5C053B /* Pods-EYCountDownButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EYCountDownButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8235B141B81069D18D07417AE1B560EA /* Pods-EYCountDownButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EYCountDownButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		8A50BA1C18807F9C579CA449B4CF8964 /* Pods-EYCountDownButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EYCountDownButton_Example.modulemap"; sourceTree = "<group>"; };
+		8BF9736F09074C8C1D22B4C948DD3124 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		90B696551CDE3358DD383C806F8CAFD9 /* Pods-EYCountDownButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EYCountDownButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B6B66E50B8CB08E9BCC381748797F3C /* EYCountDownButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EYCountDownButton-umbrella.h"; sourceTree = "<group>"; };
+		AEF1830CB91B0CC05B33BC5B74B46A3C /* Pods-EYCountDownButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EYCountDownButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B9FBBA2E163E16841301D53243C6C050 /* Pods-EYCountDownButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EYCountDownButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BF5F9490F4EAC3DDEEA249652C3CDFAA /* Pods-EYCountDownButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EYCountDownButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C2FF204FCCE9E342D8CFF484C3612CD2 /* Pods-EYCountDownButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EYCountDownButton_Tests.modulemap"; sourceTree = "<group>"; };
+		CC17F4049C237BE50C3E94B7D482C553 /* Pods-EYCountDownButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EYCountDownButton_Tests-Info.plist"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F5108DFE2207120C006DB278 /* NSTimer+EYBlockSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSTimer+EYBlockSupport.h"; path = "EYCountDownButton/Classes/NSTimer+EYBlockSupport.h"; sourceTree = "<group>"; };
+		F5108DFF2207120C006DB278 /* NSTimer+EYBlockSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+EYBlockSupport.m"; path = "EYCountDownButton/Classes/NSTimer+EYBlockSupport.m"; sourceTree = "<group>"; };
+		F5108E0222071258006DB278 /* EYCountDownButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EYCountDownButton.h; path = EYCountDownButton/Classes/EYCountDownButton.h; sourceTree = "<group>"; };
+		F5108E0322071258006DB278 /* EYCountDownButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = EYCountDownButton.m; path = EYCountDownButton/Classes/EYCountDownButton.m; sourceTree = "<group>"; };
+		F632EEC5904399972AD7B5FA735BA0EA /* Pods_EYCountDownButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EYCountDownButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F12ADCF5855C346BD26B5B014C063D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF54250F1DC11D31248001833C68CEE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D861159D751341725DFF10BE809612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860267A209F96F7AFCDEA1DD24DE1C51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5CBCB5FF4FB12A24C0E946972D30BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4992B6F0119230FBAC140901BA5C0C50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		125863717EEDF36CEE31BB5B82F9D514 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77CED81C7C627811AC45E811DB4B7DA5 /* EYCountDownButton.modulemap */,
+				6CD92876DCF467E606B6D1D3A8B37A7E /* EYCountDownButton.xcconfig */,
+				0131FDD3E7631E49A961DB2D92FACF1D /* EYCountDownButton-dummy.m */,
+				576DA384A7736E0097865EAE4FC11015 /* EYCountDownButton-Info.plist */,
+				02181555AF6AAEAB7BAAEAA2A28EF5DE /* EYCountDownButton-prefix.pch */,
+				9B6B66E50B8CB08E9BCC381748797F3C /* EYCountDownButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EYCountDownButton";
+			sourceTree = "<group>";
+		};
+		31BC031461E79A8F3881675FAFF04AA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3097E51CD0C2CBFF42443F0CC4CDC4D8 /* EYCountDownButton.framework */,
+				3F800D82643C324D8A48E142B498D477 /* Pods_EYCountDownButton_Example.framework */,
+				F632EEC5904399972AD7B5FA735BA0EA /* Pods_EYCountDownButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4F4B9AEE7A0682BD936FB4DFB93B1021 /* Pods-EYCountDownButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8A50BA1C18807F9C579CA449B4CF8964 /* Pods-EYCountDownButton_Example.modulemap */,
+				47C118A184D2084B04CD642355E41E67 /* Pods-EYCountDownButton_Example-acknowledgements.markdown */,
+				218F07062C3B9349F0A77B2AF3B5601A /* Pods-EYCountDownButton_Example-acknowledgements.plist */,
+				2AC7487C53502E5FC0707786C344AE9B /* Pods-EYCountDownButton_Example-dummy.m */,
+				29C2D2F287B3CB002A141974C19029CA /* Pods-EYCountDownButton_Example-frameworks.sh */,
+				7ED6D1BEA371AFE2F84824646D89E394 /* Pods-EYCountDownButton_Example-Info.plist */,
+				2FD7D1B10C12336FA33EA7651FBD9A26 /* Pods-EYCountDownButton_Example-umbrella.h */,
+				7FB7FD8AC50D36D1AD013D9ABA5C053B /* Pods-EYCountDownButton_Example.debug.xcconfig */,
+				AEF1830CB91B0CC05B33BC5B74B46A3C /* Pods-EYCountDownButton_Example.release.xcconfig */,
+			);
+			name = "Pods-EYCountDownButton_Example";
+			path = "Target Support Files/Pods-EYCountDownButton_Example";
+			sourceTree = "<group>";
+		};
+		572ECAA813C4D46054E6D30698CB8E22 /* EYCountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				F5108DFE2207120C006DB278 /* NSTimer+EYBlockSupport.h */,
+				F5108DFF2207120C006DB278 /* NSTimer+EYBlockSupport.m */,
+				F5108E0222071258006DB278 /* EYCountDownButton.h */,
+				F5108E0322071258006DB278 /* EYCountDownButton.m */,
+				EC3C370667E0609225EF46167DCD11AE /* Pod */,
+				125863717EEDF36CEE31BB5B82F9D514 /* Support Files */,
+			);
+			name = EYCountDownButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		78AD1A81D680ADCC4C5628574A2BCFB3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F4B9AEE7A0682BD936FB4DFB93B1021 /* Pods-EYCountDownButton_Example */,
+				E307FEEA50B1C07A29E9DA35629EC851 /* Pods-EYCountDownButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				85860CA5969D08DB239CE4818DAB3C63 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				31BC031461E79A8F3881675FAFF04AA5 /* Products */,
+				78AD1A81D680ADCC4C5628574A2BCFB3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85860CA5969D08DB239CE4818DAB3C63 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				572ECAA813C4D46054E6D30698CB8E22 /* EYCountDownButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E307FEEA50B1C07A29E9DA35629EC851 /* Pods-EYCountDownButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C2FF204FCCE9E342D8CFF484C3612CD2 /* Pods-EYCountDownButton_Tests.modulemap */,
+				B9FBBA2E163E16841301D53243C6C050 /* Pods-EYCountDownButton_Tests-acknowledgements.markdown */,
+				125639B0F95BB0233F2ABA1658BA003B /* Pods-EYCountDownButton_Tests-acknowledgements.plist */,
+				8235B141B81069D18D07417AE1B560EA /* Pods-EYCountDownButton_Tests-dummy.m */,
+				CC17F4049C237BE50C3E94B7D482C553 /* Pods-EYCountDownButton_Tests-Info.plist */,
+				BF5F9490F4EAC3DDEEA249652C3CDFAA /* Pods-EYCountDownButton_Tests-umbrella.h */,
+				90B696551CDE3358DD383C806F8CAFD9 /* Pods-EYCountDownButton_Tests.debug.xcconfig */,
+				179AFE6D43A0F46686866025E25F0C02 /* Pods-EYCountDownButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-EYCountDownButton_Tests";
+			path = "Target Support Files/Pods-EYCountDownButton_Tests";
+			sourceTree = "<group>";
+		};
+		EC3C370667E0609225EF46167DCD11AE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4F78B92886E223B261426C1AEDE83886 /* EYCountDownButton.podspec */,
+				8BF9736F09074C8C1D22B4C948DD3124 /* LICENSE */,
+				625A00D8D93F38516058CD56D89108AB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0E2A5E3693A72D13CBC8F03FD52FAAF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1230C3C8C8EB0F5A64CA174EFF4D0A /* EYCountDownButton-umbrella.h in Headers */,
+				F5108E002207120C006DB278 /* NSTimer+EYBlockSupport.h in Headers */,
+				F5108E0422071258006DB278 /* EYCountDownButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ADB85DF1CAD80CF60DB5D0C16AE64DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF09D5BD3E7582D311DEE1B0351B387 /* Pods-EYCountDownButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2C48D41AA27F1A7227270EC63964D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0C735673C6F34F8CB58C983AB36993 /* Pods-EYCountDownButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		36B6552DD82C749DC7FE239F2152B817 /* Pods-EYCountDownButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCBCBAD306EA68D36840AB490D163D10 /* Build configuration list for PBXNativeTarget "Pods-EYCountDownButton_Example" */;
+			buildPhases = (
+				8ADB85DF1CAD80CF60DB5D0C16AE64DB /* Headers */,
+				37DAFC2640FEFBAD9524459C509B8CD1 /* Sources */,
+				EB5CBCB5FF4FB12A24C0E946972D30BC /* Frameworks */,
+				B1F125BDF2DFC59B46611160694317C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23D311C898BEBAB5614901EAA358717D /* PBXTargetDependency */,
+			);
+			name = "Pods-EYCountDownButton_Example";
+			productName = "Pods-EYCountDownButton_Example";
+			productReference = 3F800D82643C324D8A48E142B498D477 /* Pods_EYCountDownButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		904E45AE84EB0D723156FD31B4C0F1D3 /* EYCountDownButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6349C0DE5385E2F8AA231406E6DC9815 /* Build configuration list for PBXNativeTarget "EYCountDownButton" */;
+			buildPhases = (
+				0E2A5E3693A72D13CBC8F03FD52FAAF8 /* Headers */,
+				F1CAF8EC97273920496E945BA32DBFAA /* Sources */,
+				8F12ADCF5855C346BD26B5B014C063D8 /* Frameworks */,
+				E7ACCA3765F1FD7F564675B07F31DAE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EYCountDownButton;
+			productName = EYCountDownButton;
+			productReference = 3097E51CD0C2CBFF42443F0CC4CDC4D8 /* EYCountDownButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ACDB617C8566190AECEF1E429848FF29 /* Pods-EYCountDownButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F14C9470C31CA39993169423AEAA1704 /* Build configuration list for PBXNativeTarget "Pods-EYCountDownButton_Tests" */;
+			buildPhases = (
+				9E2C48D41AA27F1A7227270EC63964D5 /* Headers */,
+				24E798D06281F41B565906A2716A9247 /* Sources */,
+				A8D861159D751341725DFF10BE809612 /* Frameworks */,
+				B850D2BAD3298C699A211BB571AFA747 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73545701D89122F65383B78EA4422A00 /* PBXTargetDependency */,
+			);
+			name = "Pods-EYCountDownButton_Tests";
+			productName = "Pods-EYCountDownButton_Tests";
+			productReference = F632EEC5904399972AD7B5FA735BA0EA /* Pods_EYCountDownButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 31BC031461E79A8F3881675FAFF04AA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				904E45AE84EB0D723156FD31B4C0F1D3 /* EYCountDownButton */,
+				36B6552DD82C749DC7FE239F2152B817 /* Pods-EYCountDownButton_Example */,
+				ACDB617C8566190AECEF1E429848FF29 /* Pods-EYCountDownButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1F125BDF2DFC59B46611160694317C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B850D2BAD3298C699A211BB571AFA747 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7ACCA3765F1FD7F564675B07F31DAE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24E798D06281F41B565906A2716A9247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8575E579242AEA978180BF60DC967F42 /* Pods-EYCountDownButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DAFC2640FEFBAD9524459C509B8CD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA8271FB3CDDDC0E0A32E9BF4DE3152 /* Pods-EYCountDownButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1CAF8EC97273920496E945BA32DBFAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5108E012207120C006DB278 /* NSTimer+EYBlockSupport.m in Sources */,
+				49B401A50DF1853A2B54A1CA74F81D9A /* EYCountDownButton-dummy.m in Sources */,
+				F5108E0522071258006DB278 /* EYCountDownButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23D311C898BEBAB5614901EAA358717D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EYCountDownButton;
+			target = 904E45AE84EB0D723156FD31B4C0F1D3 /* EYCountDownButton */;
+			targetProxy = D66954AA9F713BD67E8AD8DC1AA0237A /* PBXContainerItemProxy */;
+		};
+		73545701D89122F65383B78EA4422A00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EYCountDownButton_Example";
+			target = 36B6552DD82C749DC7FE239F2152B817 /* Pods-EYCountDownButton_Example */;
+			targetProxy = 5F7407F0E44E21964FF4B9579F06B7D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00D9CF082737FDAFB311C2A0B69173F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CD92876DCF467E606B6D1D3A8B37A7E /* EYCountDownButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EYCountDownButton/EYCountDownButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EYCountDownButton/EYCountDownButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EYCountDownButton/EYCountDownButton.modulemap";
+				PRODUCT_MODULE_NAME = EYCountDownButton;
+				PRODUCT_NAME = EYCountDownButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4587D8EC068D6C7A0555F7D93CF32A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEF1830CB91B0CC05B33BC5B74B46A3C /* Pods-EYCountDownButton_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EYCountDownButton_Example/Pods-EYCountDownButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EYCountDownButton_Example/Pods-EYCountDownButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9AC28A98AEFEF0898CA3D42CC6EADFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 179AFE6D43A0F46686866025E25F0C02 /* Pods-EYCountDownButton_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EYCountDownButton_Tests/Pods-EYCountDownButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EYCountDownButton_Tests/Pods-EYCountDownButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B4EDD288A0D0319C1849BB0A9C6F8D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CD92876DCF467E606B6D1D3A8B37A7E /* EYCountDownButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EYCountDownButton/EYCountDownButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EYCountDownButton/EYCountDownButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EYCountDownButton/EYCountDownButton.modulemap";
+				PRODUCT_MODULE_NAME = EYCountDownButton;
+				PRODUCT_NAME = EYCountDownButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC9F02C9A2A270373999ACECE48E4386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90B696551CDE3358DD383C806F8CAFD9 /* Pods-EYCountDownButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EYCountDownButton_Tests/Pods-EYCountDownButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EYCountDownButton_Tests/Pods-EYCountDownButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE01AF5D395AE305A54D518A9B774D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FBC26CF0507021680EFE1A06ED71444B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FB7FD8AC50D36D1AD013D9ABA5C053B /* Pods-EYCountDownButton_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EYCountDownButton_Example/Pods-EYCountDownButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EYCountDownButton_Example/Pods-EYCountDownButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */,
+				BE01AF5D395AE305A54D518A9B774D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6349C0DE5385E2F8AA231406E6DC9815 /* Build configuration list for PBXNativeTarget "EYCountDownButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EDD288A0D0319C1849BB0A9C6F8D1F /* Debug */,
+				00D9CF082737FDAFB311C2A0B69173F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCBCBAD306EA68D36840AB490D163D10 /* Build configuration list for PBXNativeTarget "Pods-EYCountDownButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC26CF0507021680EFE1A06ED71444B /* Debug */,
+				4587D8EC068D6C7A0555F7D93CF32A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F14C9470C31CA39993169423AEAA1704 /* Build configuration list for PBXNativeTarget "Pods-EYCountDownButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9F02C9A2A270373999ACECE48E4386 /* Debug */,
+				9AC28A98AEFEF0898CA3D42CC6EADFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

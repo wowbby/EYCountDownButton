@@ -1,0 +1,6 @@
+framework module Pods_EYCountDownButton_Tests {
+  umbrella header "Pods-EYCountDownButton_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
